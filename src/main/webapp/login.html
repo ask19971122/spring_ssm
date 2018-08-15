@@ -1,0 +1,46 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>青鸟租房 - 用户登录</title>
+<link type="text/css" rel="stylesheet" href="css/style.css" />
+<script type="text/javascript" src="js/function.js"></script>
+<script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="js/login.js"></script>
+
+</head>
+<body>
+<div id="regLogin" class="wrap">
+		<div class="dialog">
+			<div class="box">
+				<h4>用户登录</h4>
+				<form id="User_login" name="User_login">
+					<div class="infos">
+						<table class="field">
+							<tr>
+								<td  colspan="2" style="text-align:center; color:red"></td>
+							</tr>
+							<tr>
+								<td class="field">用 户 名：</td>
+								<td>
+									 <input type="text" name="username" value="" id="User_login_action_name" class="text" required="true"/>
+								</td>
+							</tr>
+							<tr>
+								<td class="field">密&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;码：</td>
+								<td>
+									<input type="password" name="password" id="User_login_action_password" class="text" required="true"/>
+								</td>
+							</tr>
+						</table>
+						<div class="buttons">
+							<input type='button' value='立即登录' onclick='userLogin()' />
+							<input type='button' value='注册' onclick='document.location="register.jsp"' />
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+
